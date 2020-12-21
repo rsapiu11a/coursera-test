@@ -1,9 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera!</title>
+	<meta charset="utf-8">
+	<title>Assignment Solution for Module 2</title>
+	
+		<style type="text/css">
+			*{
+			
+			margin: 10px;
+
+		}
+		h1{
+			margin-bottom: 15px;
+
+		}
+		.wrapper{
+			width: 100%;
+		}
+		
+		.wrapper > div{
+			padding: 10px;
+			background-color: grey;
+			border: 2px solid black;
+		}
+		.wrapper > div>p{
+			height: 18px;
+			width: 100px;
+			text-align: center;
+			padding: 5px;
+			margin: 0;
+			 
+		}
+		p{
+			margin-right: auto;
+            margin-left: auto;
+		}
+
+		#p1{
+			background-color: #cd9f95; 
+			float: right; 
+			border: 2px solid black;
+		}
+		#p2{
+			color: white; 
+			background-color: #9c1f10; 
+			float: right; 
+			border: 2px solid black;
+		}
+		#p3{
+			background-color: #cdc495; 
+			float: right; 
+			border: 2px solid black;
+		}
+
+
+		@media (min-width: 992px){
+			.wrapper{
+			display: grid;
+			grid-template-columns: 33.33% 33.33% 33.33% ;
+			padding: 10px;
+			
+		}
+	}
+
+
+	@media(min-width: 768px) and (max-width:991px ){
+
+		.wrapper{
+			display: grid;
+			grid-template-columns:50% 50%;
+			padding: 10px;
+		 margin-right: 10px;
+		grid-auto-rows: auto;
+			
+		}
+
+			#div1{
+				width: 90%;
+				
+			}
+			#div2{
+				width: 90%;
+			
+			}
+			#div3{	
+					width: 190%			
+				
+			}
+	}
+
+
+	
+		
+	
+
+		</style>
+	
 </head>
 <body>
-	<h1>Hello Coursera!</h1>
+<header> 
+<h1 align="center">Our Menu</h1>
+</header>
+<div class="wrapper">
+	<div id="div1"> <p id="p1">Chicken</p> <p></p>
+		<span >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+	
+	<div id="div2"> <p id="p2">Beef</p>
+		<p></p>
+	 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	
+	<div id="div3"> <p id="p3">Sushi</p>
+		<p></p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+
+</div>
 </body>
 </html>
