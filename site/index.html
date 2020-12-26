@@ -1,118 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Assignment Solution for Module 2</title>
-	
-		<style type="text/css">
-			*{
-			
-			margin: 10px;
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment Solution for Module 3</title>
 
-		}
-		h1{
-			margin-bottom: 15px;
-
-		}
-		.wrapper{
-			width: 100%;
-		}
-		
-		.wrapper > div{
-			padding: 10px;
-			background-color: grey;
-			border: 1px solid black;
-		}
-		.wrapper > div>p{
-			height: 18px;
-			width: 100px;
-			text-align: center;
-			padding: 5px;
-			margin: 0;
-			 
-		}
-		p{
-			margin-right: auto;
-            margin-left: auto;
-		}
-
-		#p1{
-			background-color: #cd9f95; 
-			float: right; 
-			border: 1px solid black;
-		}
-		#p2{
-			color: white; 
-			background-color: #9c1f10; 
-			float: right; 
-			border: 1px solid black;
-		}
-		#p3{
-			background-color: #cdc495; 
-			float: right; 
-			border: 1px solid black;
-		}
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
 
-		@media (min-width: 992px){
-			.wrapper{
-			display: grid;
-			grid-template-columns: 33.33% 33.33% 33.33% ;
-			padding: 10px;
-			
-		}
-	}
 
-
-	@media(min-width: 768px) and (max-width:991px ){
-
-		.wrapper{
-			display: grid;
-			grid-template-columns:50% 50%;
-			padding: 10px;
-		 margin-right: 10px;
-		grid-auto-rows: auto;
-			
-		}
-
-			#div1{
-				width: 90%;
-				
-			}
-			#div2{
-				width: 90%;
-			
-			}
-			#div3{	
-					width: 190%			
-				
-			}
-	}
-
-
-	
-		
-	
-
-		</style>
-	
 </head>
 <body>
-<header> 
-<h1 align="center">Our Menu</h1>
-</header>
-<div class="wrapper">
-	<div id="div1"> <p id="p1">Chicken</p> <p></p>
-		<span >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
-	
-	<div id="div2"> <p id="p2">Beef</p>
-		<p></p>
-	 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-	
-	<div id="div3"> <p id="p3">Sushi</p>
-		<p></p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+<header>
 
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+     <b style="padding-left:30px;">Food,&nbsp;LLC</b>
+    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    
+ 
+    </div>
+    </button>
+
+
+</nav>
+</header>
+ <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li  style="text-align: center; font-size: 30px; background-color: white; ">
+          <a class="nav-link active" aria-current="page" href="#Chicken" style="color: black; border: 1px solid grey;">Chicken</a>
+        </li>
+        <li style="text-align: center; font-size: 30px; background-color: white; "><a class="nav-link active" aria-current="page" href="#Beef" style="color: black; border: 1px solid grey;">Beef</a></li>
+        <li style="text-align: center; font-size: 30px; background-color: white; "><a class="nav-link active" aria-current="page" href="#Sushi" style="color: black; border: 1px solid grey;">Sushi</a></li>
+  </div>
+
+
+<h1 class="text-center";  style="padding-top: 40px; padding-bottom: 20px">Our Menu</h1>
+<div class="container-fluid rrr"  >
+  <section class=" row col-lg-4 col-md-6" > <a name="Chicken"></a><h3  align="center">Chicken</h3> 
+<p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? </p>
+</section>
+<section class=" row col-lg-4 col-md-6"><a name="Beef"></a><h3 align="center">Beef</h3>
+<p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? </p>
+</section>
+<section id="div"; class=" row col-lg-4 col-md-6"><a name="Sushi"></a><h3 align="center">Sushi</h3>
+<p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? </p>
+</section>
 </div>
+
+
 </body>
 </html>
